@@ -1,5 +1,5 @@
 import React from "react";
-import { Player } from "./Types";
+import type { Player } from "./Types";
 
 interface StatusProps {
   winner: Player | null;

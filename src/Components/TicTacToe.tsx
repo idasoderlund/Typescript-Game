@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Board from "./Board";
 import Controls from "./Settings";
 import Status from "./Status";
-import { Player } from "./Types";
+import type { Player } from "./Types";
 
 interface GameSettings {
   size: number;

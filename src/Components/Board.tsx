@@ -1,6 +1,6 @@
 import React from "react";
 import Cell from "./Cell";
-import { Player } from "./Types";
+import type { Player } from "./Types";
 
 interface BoardProps {
   board: (Player | null)[][];
