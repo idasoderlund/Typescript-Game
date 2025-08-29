@@ -15,12 +15,26 @@ const Status: React.FC<StatusProps> = ({
   currentPlayer,
 }) => {
   if (winner) {
-    return <h2 style={{ fontFamily: "Shizuru" }}> Winner: {winner}</h2>;
+    return (
+      <h2 style={{ fontFamily: "Shizuru", marginLeft: "40px" }}>
+        {" "}
+        Winner: {winner}
+      </h2>
+    );
   }
   if (moveCount === size * size) {
-    return <h2 style={{ fontFamily: "Shizuru" }}>Oavgjord match!</h2>;
+    return (
+      <h2 style={{ fontFamily: "Shizuru", marginLeft: "40px" }}>
+        Oavgjord match!
+      </h2>
+    );
   }
-  return <h2 style={{ fontFamily: "Shizuru" }}> Nu spelar: {currentPlayer}</h2>;
+  return (
+    <h2 style={{ fontFamily: "Shizuru", marginLeft: "40px" }}>
+      {" "}
+      Nu spelar: {currentPlayer}
+    </h2>
+  );
 };
 
 export default Status;

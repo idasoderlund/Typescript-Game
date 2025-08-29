@@ -19,8 +19,8 @@ const Controls: React.FC<ControlProps> = ({
 }) => {
   return (
     <div>
-      <label style={{ fontFamily: "Shizuru" }}>
-        Storlek på brädet (2-10):{" "}
+      <label style={{ fontFamily: "Shizuru", marginRight: "10px" }}>
+        Choose sizing on your game board (2-10):{" "}
         <input
           type="number"
           min={2}

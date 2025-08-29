@@ -71,7 +71,7 @@ const checkWinner = (
     }
   }
   return null;
-}; //Här ska det tydligen finnas en till slutklammer med cemikolon
+};
 
 const TicTacToe: React.FC = () => {
   const [settings, setSettings] = useState<GameSettings>(defaultSettings);
@@ -134,13 +134,12 @@ const TicTacToe: React.FC = () => {
         display: "flex",
         flexDirection: "column",
         minHeight: "100vh",
-        padding: "20px",
         boxSizing: "border-box",
       }}
     >
       <h1
         style={{
-          fontSize: 30,
+          fontSize: 35,
           color: "black",
           marginLeft: "30px",
           fontFamily: "Shizuru",
