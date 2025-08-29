@@ -31,7 +31,10 @@ const Controls: React.FC<ControlProps> = ({
           disabled={gameActive}
         />
       </label>
-      <button onClick={startGame}> Start over</button>
+      <button style={{}} onClick={startGame}>
+        {" "}
+        Start over
+      </button>
     </div>
   );
 };

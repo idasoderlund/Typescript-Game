@@ -129,7 +129,9 @@ const TicTacToe: React.FC = () => {
 
   return (
     <div>
-      <h1>Tic Tac Toe</h1>
+      <h1 style={{ fontSize: 30, color: "black", marginLeft: "30px" }}>
+        Play below!
+      </h1>
       <Controls
         settings={settings}
         handleSizeChange={handleSizeChange}

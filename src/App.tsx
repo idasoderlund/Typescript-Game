@@ -4,9 +4,27 @@ import TicTacToe from "./Components/TicTacToe";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Tic Tac Toe - The Ultimate Game</h1>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "flex-start",
+        height: "100vh",
+        marginLeft: "400px",
+        marginTop: "40px",
+      }}
+      className="App"
+    >
+      <header className="App-header" style={{ textAlign: "center" }}>
+        <h1
+          style={{
+            fontSize: 35,
+            color: "black",
+          }}
+        >
+          TicTacToe - The Ultimate Game
+        </h1>
       </header>
       <TicTacToe />
     </div>
