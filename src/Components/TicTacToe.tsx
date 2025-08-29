@@ -3,6 +3,7 @@ import Board from "./Board";
 import Controls from "./Settings";
 import Status from "./Status";
 import type { Player } from "./Types";
+import Btn from "./Button";
 
 interface GameSettings {
   size: number;
@@ -128,10 +129,19 @@ const TicTacToe: React.FC = () => {
   };
 
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        minHeight: "100vh",
+        padding: "20px",
+        boxSizing: "border-box",
+      }}
+    >
       <h1 style={{ fontSize: 30, color: "black", marginLeft: "30px" }}>
         Play below!
       </h1>
+
       <Controls
         settings={settings}
         handleSizeChange={handleSizeChange}
@@ -145,6 +155,8 @@ const TicTacToe: React.FC = () => {
         size={settings.size}
         currentPlayer={currentPlayer}
       />
+      <Btn startGame={startGame} />
+      <div style={{ flexGrow: 1 }}></div>
     </div>
   );
 };

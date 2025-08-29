@@ -15,7 +15,6 @@ interface ControlProps {
 const Controls: React.FC<ControlProps> = ({
   settings,
   handleSizeChange,
-  startGame,
   gameActive,
 }) => {
   return (
@@ -31,10 +30,6 @@ const Controls: React.FC<ControlProps> = ({
           disabled={gameActive}
         />
       </label>
-      <button style={{}} onClick={startGame}>
-        {" "}
-        Start over
-      </button>
     </div>
   );
 };
