@@ -21,6 +21,7 @@ function App() {
           style={{
             fontSize: 35,
             color: "black",
+            fontFamily: "Shizuru",
           }}
         >
           TicTacToe - The Ultimate Game

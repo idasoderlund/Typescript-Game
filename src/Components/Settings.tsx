@@ -19,7 +19,7 @@ const Controls: React.FC<ControlProps> = ({
 }) => {
   return (
     <div>
-      <label>
+      <label style={{ fontFamily: "Shizuru" }}>
         Storlek på brädet (2-10):{" "}
         <input
           type="number"

@@ -138,7 +138,14 @@ const TicTacToe: React.FC = () => {
         boxSizing: "border-box",
       }}
     >
-      <h1 style={{ fontSize: 30, color: "black", marginLeft: "30px" }}>
+      <h1
+        style={{
+          fontSize: 30,
+          color: "black",
+          marginLeft: "30px",
+          fontFamily: "Shizuru",
+        }}
+      >
         Play below!
       </h1>
 
@@ -155,7 +162,10 @@ const TicTacToe: React.FC = () => {
         size={settings.size}
         currentPlayer={currentPlayer}
       />
-      <Btn startGame={startGame} />
+      <div style={{ marginLeft: "45px" }}>
+        <Btn startGame={startGame} />
+      </div>
+
       <div style={{ flexGrow: 1 }}></div>
     </div>
   );
