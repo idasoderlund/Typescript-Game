@@ -11,7 +11,7 @@ function App() {
         alignItems: "center",
         justifyContent: "flex-start",
         height: "100vh",
-        marginLeft: "400px",
+        //marginLeft: "400px",
         marginTop: "40px",
       }}
       className="App"

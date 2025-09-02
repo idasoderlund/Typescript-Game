@@ -130,6 +130,7 @@ const TicTacToe: React.FC = () => {
 
   return (
     <div
+      className="responsive-container"
       style={{
         display: "flex",
         flexDirection: "column",
@@ -154,7 +155,10 @@ const TicTacToe: React.FC = () => {
         startGame={startGame}
         gameActive={gameActive}
       />
-      <Board board={board} handleCellClick={handleCellClick} />
+      <div className="board-container">
+        <Board board={board} handleCellClick={handleCellClick} />
+      </div>
+
       <Status
         winner={winner}
         moveCount={moveCount}

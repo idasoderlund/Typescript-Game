@@ -9,7 +9,7 @@ interface BoardProps {
 
 const Board: React.FC<BoardProps> = ({ board, handleCellClick }) => {
   return (
-    <div>
+    <div className="ResponsiveBoard">
       {board.map((row, rowIndex) => (
         <div key={rowIndex} style={{ display: "flex" }}>
           {row.map((cell, colIndex) => (
