@@ -13,7 +13,7 @@ const Btn: React.FC<ControlButtonProps> = ({ startGame }) => {
         }}
         onClick={startGame}
       >
-        Start over
+        Start | Start over
       </button>
     </div>
   );
