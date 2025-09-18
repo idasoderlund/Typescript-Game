@@ -1,3 +1,5 @@
+// component skapar en knapp som, när den klickas, anropar funktion startGame.
+
 interface ControlButtonProps {
   startGame: () => void;
 }

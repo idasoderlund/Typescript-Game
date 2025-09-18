@@ -1,3 +1,6 @@
+//användaren kan ändra storlek på spelplanen, spela mot en annan spelare, och se status för spelet.
+// Den innehåller logik för att kontrollera vinnare, hantera spelets flöde och dynamiskt rendera spelplanen.
+
 import React, { useState } from "react";
 import Board from "./Board";
 import Controls from "./Settings";

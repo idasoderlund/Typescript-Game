@@ -1,3 +1,5 @@
+// komponent visar en kontroll för att välja storleken på spelbrädet mellan 2 och 5.
+// Den tillåter användaren att ändra storleken när spelet inte är aktivt
 import React from "react";
 
 interface GameSettings {

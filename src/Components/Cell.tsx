@@ -1,3 +1,5 @@
+//återanvändbar React-komponent för en spelcell som kan visa en spelares symbol
+//  reagera på klick för att exempelvis göra ett drag i ett spel
 import React from "react";
 import type { Player } from "./Types";
 

@@ -1,3 +1,4 @@
+//statusinformation om spelets tillstånd, inklusive vem som vunnit
 import React from "react";
 import type { Player } from "./Types";
 
